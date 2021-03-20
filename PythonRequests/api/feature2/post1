@@ -1,0 +1,8 @@
+url: /api/xxx
+method: POST
+params:
+  params1
+  params2
+data:
+  data1
+  data2

@@ -1,0 +1,5 @@
+url: /api/xxx
+method: GET
+params:
+  params1
+  params2

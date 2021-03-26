@@ -1,5 +1,6 @@
-from testcases.testcase1 import TestCase1
-from testcases.testcase2 import TestCase2
+# coding:utf-8
+from python_requests.testcases.testcase1 import TestCase1
+from python_requests.testcases.testcase2 import TestCase2
 import unittest
 
 

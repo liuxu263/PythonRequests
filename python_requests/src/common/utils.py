@@ -1,4 +1,7 @@
-# coding:utf-8
+#! /user/bin/env python
+# -*- coding:utf-8 -*-
+
+import os
 import yaml
 
 
@@ -23,7 +26,7 @@ def set_env(file, argv):
 
 
 def get_env():
-    file = "../testdatas/config"
+    file = os.path.abspath(os.path.dirname(__file__)) + "/testdata/config"
     content = get_data_from_yaml(file)
     env = "TEST"
     if content["env"] == "LIVE":
@@ -32,8 +35,8 @@ def get_env():
 
 
 def get_url():
-    base_url = ""
-    env = get_env().lower()
+    # base_url = ""
+    # env = get_env().lower()
     # 处理url
     url = ""
     return url
